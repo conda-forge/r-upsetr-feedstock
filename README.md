@@ -14,8 +14,15 @@ Summary: Creates visualizations of intersecting sets using a novel matrix design
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-upsetr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-upsetr-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1767&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-upsetr-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -48,6 +55,8 @@ conda search r-upsetr --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -103,3 +112,13 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@bgruening](https://github.com/bgruening/)
+* [@daler](https://github.com/daler/)
+* [@dlaehnemann](https://github.com/dlaehnemann/)
+* [@dpryan79](https://github.com/dpryan79/)
+* [@johanneskoester](https://github.com/johanneskoester/)
+
