@@ -10,8 +10,8 @@ package:
 source:
   fn: UpSetR_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/UpSetR_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/UpSetR/UpSetR_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/UpSetR_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/UpSetR/UpSetR_{{ version }}.tar.gz
   sha256: 351e5fee64204cf77fd378cf2a2c0456cc19d4d98a2fd5f3dac74b69a505f100
 
 build:
