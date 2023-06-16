@@ -1,11 +1,11 @@
-About r-upsetr
-==============
+About r-upsetr-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-upsetr-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/hms-dbmi/UpSetR
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-upsetr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Creates visualizations of intersecting sets using a novel matrix design, along with visualizations of several common set, element and attribute related tasks.
 
