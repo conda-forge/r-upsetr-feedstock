@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/UpSetR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/UpSetR/UpSetR_{{ version }}.tar.gz
-  sha256: 351e5fee64204cf77fd378cf2a2c0456cc19d4d98a2fd5f3dac74b69a505f100
+  sha256: 91c1fdfbb5dccaf29e57f159d752a846f73d01a40e05f542f64f4841d48e549e
 
 build:
   noarch: generic
-  number: 6
+  number: 0
 
   rpaths:
     - lib/R/lib/
